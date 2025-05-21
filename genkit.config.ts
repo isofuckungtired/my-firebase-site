@@ -2,7 +2,5 @@
 import { defineConfig } from 'genkit';
 
 export default defineConfig({
-  telemetry: {
-    enabled: false, // 禁用 OpenTelemetry，避免載入 Jaeger 模組
-  },
+  // 不加入 telemetry 設定
 });
